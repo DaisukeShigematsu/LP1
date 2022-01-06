@@ -1,0 +1,177 @@
+/*nav*/
+
+
+
+/*header*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #000;
+  color: #fff;
+}
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+/**/
+
+.main{
+  background: #fff;
+  height: 600px;
+  color: #fff;
+}
+.main{  height: 600px;  display: flex;}
+.content{ background: #00adb9; height: 100%;  color: #fff;  width: 80%;}.
+
+
+
+
+/*=新着=*/
+.dl{
+width:500px;
+}
+.dt{
+border-bottom:1px solid #ccc;
+  float:left;
+  padding:10px 5px;
+}
+.dd{
+border-bottom:1px solid #ccc;
+  margin-left:100px;
+  padding:10px 5px;
+}
+a{
+  background-color:#8b008b;
+  border-radius:5px;
+  color:#fff;
+  margin:0 20px;
+  padding:5px 15px;
+  text-decoration:none;
+}
+
+  /*ブログ*/
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.img {
+  width: 100px;
+  height: auto;
+}
+.card {
+  width: 20%;
+  cursor: pointer;
+  border: 1px solid #e9eaea;
+  border-radius: 3px;
+}
+.text-box {
+  padding: 15px;}
+.content-img {
+  padding: 10px 0;
+  text-align: center;
+  background: #e1f3ff;
+}
+.date{
+  font-size: 10px;
+  margin-top: 5px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*会社概要*/
+.table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.table th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+
+
+.footer{  background: #fff;  height: 70px;  color: #fff; }
