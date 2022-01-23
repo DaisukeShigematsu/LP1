@@ -2,7 +2,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+/*ヘッダー部分*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,6 @@ a {
 }
 .header-nav-list {
   display: flex;
-  justify-content: ;
   font-weight: bold;
 }
 .header-nav-item:not(:last-child) {
@@ -32,10 +31,7 @@ li a{
 }
 
 
-
-
-
-
+/*ヘッダ画像*/
 .relative {
   position: relative;
 }
@@ -73,42 +69,45 @@ li a{
   top: 60%;
   left: 20%;
 }
-=============================================
+
+/*ヘッダ画像ここまで*/
 
 
 .main {
 background: #fff;
-margin-top: 0px;
-padding: 50px 50px;
-margin: 50px 50px;
-height: 600px;
-color: #fff;
+padding: 100px 100px;
+margin: 100px 100px;
+height: 800px;
+color: #000;
 }
 
 
 
 
 .content {
-background: #eee;
-height: 70%;
-width: 80%;
-margin: 20px, 20px;
-padding: 50px;
+background: #dcdcdc;
+height: 100%;
+width: 100%;
+margin: 50px, 50px;
+padding: 50px 50px;
 }
 
-==========================
 
+
+/*news*/
+.about__content__ttl{
+font-size:25px;
+text-align: center;
+}
 dl{
-width: 600px;
-height: 200Px;
 margin:30px 30px;
 padding:30px 30px;
-border-top: 3px solid #000;
-border-bottom: 3px solid #000;
+font-size: 20px;
+border-top: 1px solid #dcdcdc;
+border-bottom: 1px solid #dcdcdc;
 }
-
 dt{
-border-bottom: 1px solid #ccc;
+border-bottom: 1px solid #dcdcdc;
 margin:0px 30px;
 padding: 30px 30px;
 }
@@ -121,48 +120,106 @@ border-radius:5px;
 text-decoration:none;
 }
 dd{
-border-bottom: 1px solid #ccc;
+border-bottom: 1px solid #dcdcdc;
 margin-left: 100px;
 padding: 30px 30px;
 margin:0ox 30px;
 }
-
-
 dl:before {
 top: 0;
 }
-
 dl:after {
 content: '';
 display: block;
 clear: both;
 }
+/*newsここまで*/
+
+/*Aboutの説明文*/
+.about{
+  background-color: #dcdcdc;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+  margin:50px, 50px;
+}
+.about__img img {
+  width: 70%;
+}
+.about__img {
+  width: 40%;
+}
+.about__content {
+  width: 40%;
+}
+/*Aboutの説明文*/
 
 
-===================
+/*サービス*/
+.grid__parent {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  padding:30px 30px;
+  margin:50px 50px;
+  text-align: center;
+  line-height: 24px;
+  background:#fff;
+  color:#fff;
+  font-size: 20px;
+}
 
 
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: #800055;
+  text-align:center;
+  padding:30px  30px;
+}
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: #db7093
+}
+.box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: #996666
+}
+.service__img2 img{
+  padding:30px 30px;
+  margin-bottom:50px;
+  float:left;
+  margin:20px  20px;
+}
+.service__ttl{
+font-size:24px;
+font-weight: bold;
+margin-left:100px;
+}
+/*サービスここまで*/
+
+
+
+/*ブログカード*/
 .flex__item {
 display:flex;
 justify-content:space-around;
 }
-
 .practice__card {
-width: 30%;
+width:  30%;
 height: 30%;
-padding:20px ;
 margin: 20px 20px;
 box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 border-radius: 20px;
 }
-
 .card__img img {
   display:inline-block
   position:relative;
-  width:  100%;
-  border-radius: 20px 20px 0 0;
+  width:100%;
+  border-radius:20px 20px 0 0;
 }
-
 .card__content {
 padding: 15px 15px;
 margin: 20px 20px;
@@ -172,18 +229,15 @@ margin: 20px 20px;
   margin-bottom: 20px;
   font-weight: bold;
 }
-
 .card__cat {
   display: inline-block;
   position:absolute;
-  padding: 10px 10px;
+  padding: 15px 15px;
   background: #c71585;
   color: #fff;
   font-size: 20px;
   border-top-left-radius:20px;
-
 }
-
 .tag {
   font-size: 14px;
   text-align: right;
@@ -197,54 +251,108 @@ margin: 20px 20px;
   margin-left: 20px;
   color: #000;
 }
+/*ブログカードここまで*/
+.list__btn {
+  display:inline-block;
+  width: 200px;
+  padding: 20px 0;
+  color: #fff;
+  border-radius: 30px;
+  background: #800055;
+  text-align: center;
+  box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+  margin-top:90% auto 0;
+  float:under;
+}
 
 
+/*概要*/
 
-
-
-
-
+.link{
+padding:50px 50px;
+margin:50px 50px;
+align-items: center;
+}
 table {
   width: 60%;
   margin-left: 50Px;
   border-collapse: collapse;
-  align-items: center;
+  text-align: center;
 }
 table th,
 table td {
-  border: 1px solid #ccc;
+  border: 1px solid #dcdcdc;
   padding: 20px;
 }
 table th {
   font-weight: bold;
-  background-color: #dedede;
+  background-color: #dcdcdc;
+}
+/*概要ここまで*/
+
+
+
+
+/*画像２つ*/
+.recruit {
+  position: relative;
+  margin: 0 0 0 auto;
+  display:inline-block;
+  background-image:url(img/recruit.img);
+  background-size: 70%;
 }
 
-.title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 64px;
-  color: #000;
+.absolute1 {
+  position:absolute;
+  color:#fff;
+  font-size: 40px;
+  text-align: center;
+  top:40%;
+  left:40%;
 }
 
-.relative2 {
-  display: flex;
-  flex-direction: row;
-  padding: 50px 50px;
-  margin: ;
+.interview{
+  position:absolute;
+  margin: 0 0 0 auto;
+  display:inline-block;
+  background-image:url(img/interview.img);
+  background-size: 70%;
+  left:50%;
 }
 
 
-===========================
-
-
-
-
-
-.footer {
-  background: #a9a9a9;
-  height: 70px;
-  color: #000;
+.absolute2{
+  position:absolute;
+  color:#fff;
+  display:block;
+  font-size: 40px;
+  top:40%;
+  left:80%;
 }
+
+.list__btn {
+  width: 200px;
+  hight: 300px;
+  padding: 20px 20px;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 5px 0 #800055;
+  margin:100px auto 0;
+  display:block;
+}
+
+/*フッター*/
+footer {
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+  width: 100%;
+  height: 60px;
+  background-color:#dcdcdc;
+  color:black;
+}
+
+/*フッター*/
+
+
+
