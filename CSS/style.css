@@ -45,7 +45,7 @@ li a{
   position: absolute;
   font-size: 70px;
   left: 20%;
-  top: 20%;
+  top: 10%;
   font-family: "Indie Flower", cursive;
   color: #c71585;
 }
@@ -73,31 +73,12 @@ li a{
 /*ヘッダ画像ここまで*/
 
 
-.main {
-background: #fff;
-padding: 100px 100px;
-margin: 100px 100px;
-height: 800px;
-color: #000;
-}
-
-
-
-
-.content {
-background: #dcdcdc;
-height: 100%;
-width: 100%;
-margin: 50px, 50px;
-padding: 50px 50px;
-}
-
 
 
 /*news*/
 .about__content__ttl{
 font-size:25px;
-text-align: center;
+align-items: center; #
 }
 dl{
 margin:30px 30px;
@@ -266,16 +247,33 @@ margin: 20px 20px;
 }
 
 
-/*概要*/
-
-.link{
-padding:50px 50px;
-margin:50px 50px;
-align-items: center;
+/*一覧ボタン*/
+.list__btn {
+  width: 200px;
+  padding: 20px 20px;
+  color: #800055;
+  border-radius: 30px;
+  border: solid 3px #800055;
+  background-color: white;
+  text-align: center;
+  margin:100px auto 0;
+  display:block;
 }
+
+
+
+/*概要*/
+.company{
+padding:100px 100px;
+margin:100px 100px;
+
+
+}
+
 table {
   width: 60%;
-  margin-left: 50Px;
+  left: 30%;
+  margin:auto;
   border-collapse: collapse;
   text-align: center;
 }
@@ -294,62 +292,111 @@ table th {
 
 
 /*画像２つ*/
-.recruit {
-  position: relative;
-  margin: 0 0 0 auto;
-  display:inline-block;
-  background-image:url(img/recruit.img);
-  background-size: 70%;
+.link{
+display:flex;
+padding:100px  100px;
+top:50%;
+left:35%;
 }
 
-.absolute1 {
+.recruit {
+  position:relative;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  top:50%;
+  left:35%;
+}
+.absolute1{
   position:absolute;
   color:#fff;
-  font-size: 40px;
-  text-align: center;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
   top:40%;
-  left:40%;
+  left:35%;
+  font-size:40px;
+
 }
 
 .interview{
-  position:absolute;
-  margin: 0 0 0 auto;
-  display:inline-block;
-  background-image:url(img/interview.img);
-  background-size: 70%;
-  left:50%;
+  position:relative;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  top:50%;
+  left:35%;
+
 }
-
-
 .absolute2{
   position:absolute;
-  color:#fff;
-  display:block;
-  font-size: 40px;
+  display:flex;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
   top:40%;
-  left:80%;
+  left:35%;
+  color:#fff;
+  font-size:40px;
 }
 
-.list__btn {
+
+
+/*CVボタン*/
+
+.cv{
+  display:flex;
+  justify-content: center;
+  font-size: 18px;
+  padding:30px;
+  color: #808080;
+  font-weight: bold ;
+}
+
+.v_line_fix {
+  margin:0 auto;
+  width: 2px;
+  height: 40px;
+  background-color: #c71585;
+}
+
+.cv_btn {
+  position: relative;
+  background-color: #c71585;
   width: 200px;
-  hight: 300px;
-  padding: 20px 20px;
-  color: #fff;
-  border-radius: 30px;
+  display: block;
+  padding: 30px;
   text-align: center;
-  box-shadow: 0 5px 0 #800055;
-  margin:100px auto 0;
-  display:block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin: 50px auto;
 }
 
-/*フッター*/
+.cv_btn::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 15px;
+  background: #c71585
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  paddin
+  transform: translate(0, -50%);
+}
+
+
+
+
+
+
 footer {
-  position: absolute;/*←絶対位置*/
-  bottom: 0; /*下に固定*/
   width: 100%;
-  height: 60px;
-  background-color:#dcdcdc;
-  color:black;
+  height: 50px;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #dcdcdc;
+}
+.footer-text {
+  color: #000;
 }
 
 /*フッター*/
