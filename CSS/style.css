@@ -161,32 +161,43 @@ clear: both;
 .box2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  background: #db7093
+  background: #db7093;
+
 }
 .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  background: #996666
+  background: #996666;
+
 }
+.service__content-ttl{
+left:20%;
+
+}
+
+
 .service__img2 img{
-  padding:30px 30px;
-  margin-bottom:50px;
+  margin:50px, 50px;
   float:left;
-  margin:20px  20px;
 }
 .service__ttl{
-font-size:24px;
-font-weight: bold;
-margin-left:100px;
+  font-size:24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top:100px;
+  margin-left:50px;
+
 }
+
+
 /*サービスここまで*/
 
 
 
 /*ブログカード*/
 .flex__item {
-display:flex;
-justify-content:space-around;
+  display:flex;
+  justify-content:space-around;
 }
 .practice__card {
 width:  30%;
