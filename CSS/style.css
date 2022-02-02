@@ -143,10 +143,10 @@ clear: both;
 .about__content-ttl{
 text-align: center;
 background-color: #dcdcdc;
-margin:50px,100px;
-padding:0;
-
+margin:0,auto;
+padding:0  0  0  0;
 }
+
 /*Aboutの説明文*/
 
 
@@ -163,8 +163,6 @@ padding:0;
   color:#fff;
   font-size: 20px;
 }
-
-
 .box1 {
   grid-column: 1/2;
   grid-row: 1/3;
@@ -176,21 +174,15 @@ padding:0;
   grid-column: 2/3;
   grid-row: 1/2;
   background: #db7093;
-
 }
 .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
   background: #996666;
-
 }
 .service__content-ttl{
-
-margin-left:100px;
-
+  margin-left:100px;
 }
-
-
 .service__img2 img{
   float:left;
   margin-bottom:100px;
@@ -201,10 +193,7 @@ margin-left:100px;
   font-weight: bold;
   margin-top:50px;
   margin-left:50px;
-
 }
-
-
 /*サービスここまで*/
 
 
@@ -262,6 +251,8 @@ margin: 20px 20px;
   color: #000;
 }
 /*ブログカードここまで*/
+
+
 .list__btn {
   display:inline-block;
   width: 200px;
@@ -274,8 +265,6 @@ margin: 20px 20px;
   margin-top:90% auto 0;
   float:under;
 }
-
-
 /*一覧ボタン*/
 .list__btn {
   width: 200px;
@@ -292,17 +281,13 @@ margin: 20px 20px;
 
 
 /*概要*/
-
-
 .company{
 padding:100px 100px;
 margin:100px 100px;
 }
-
 .company__content-ttl{
 margin-left:100px;
 }
-
 table {
   width: 60%;
   left: 30%;
@@ -324,14 +309,13 @@ table th {
 
 
 
-/*画像２つ*/
+/*画像２つリンク*/
 .link{
 display:flex;
 padding:100px  100px;
 top:50%;
 left:35%;
 }
-
 .recruit {
   position:relative;
   transform: translateY(-50%) translateX(-50%);
@@ -347,7 +331,6 @@ left:35%;
   top:40%;
   left:35%;
   font-size:40px;
-
 }
 
 .interview{
@@ -356,7 +339,6 @@ left:35%;
   -webkit- transform: translateY(-50%) translateX(-50%);
   top:50%;
   left:35%;
-
 }
 .absolute2{
   position:absolute;
@@ -368,10 +350,8 @@ left:35%;
   color:#fff;
   font-size:40px;
 }
-
-
-
 /*CVボタン*/
+
 
 .cv{
   display:flex;
