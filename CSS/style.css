@@ -41,7 +41,6 @@ li a{
   width: 50%;
   margin-left: 40%;
 }
-
 .absolute {
   display: relative;
   position: absolute;
@@ -76,19 +75,16 @@ li a{
 
 /*news*/
 .news{
-margin:200px, auto;
+margin:0, auto;
 padding:0px 50px;
 text-align: center;
 }
 
 
 .news__content-ttl{
-display:block;
 font-size:20px;
-padding:20px 20px;
 margin:50px,0;
-width:100%;
-margin-left:32%;
+width:70%;
 }
 dl{
 padding:30px 30px;
@@ -206,20 +202,24 @@ padding:0 0 0 0;
 
 /*ブログカード*/
 .blog__content-ttl_{
-  display:block;
-  width:100%;
-  padding:30px 30px;
-  margin:100px 0 0 0;
+  margin-left:100px;
 }
+.blog__content{
+display:block;
+background-color: #dcdcdc;
+}
+
 .flex__item {
   display:flex;
-  justify-content:space-around;
-
+  justify-content:space-between;
+  background-color: #dcdcdc;
+  padding:0px 100px 0px 100px;
+  margin: 0px  0px;
 }
 .practice__card {
 width:  30%;
 height: 30%;
-margin: 20px 20px;
+background-color: #fff;
 box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 border-radius: 20px;
 }
@@ -235,7 +235,6 @@ margin: 20px 20px;
 }
 .card__ttl {
   font-size: 18px;
-  margin-bottom: 20px;
   font-weight: bold;
 }
 .card__cat {
@@ -248,23 +247,22 @@ margin: 20px 20px;
   border-top-left-radius:20px;
 }
 .tag {
-  font-size: 14px;
+  font-size: 16px;
   text-align: right;
+  display: flex;
+  justify-content:space-between;
 }
-.card__tag {
-  display: inline-block;
-  color: #000;
-}
-.card__date {
-  display: inline-block;
-  margin-left: 20px;
-  color: #000;
-}
+
 /*ブログカードここまで*/
 
+.blog_link{
+background-color: #dcdcdc;
+padding: 100px 0px;
+
+}
 
 .list__btn {
-  display:inline-block;
+  display:block;
   width: 200px;
   padding: 20px 0;
   color: #fff;
@@ -292,13 +290,10 @@ margin: 20px 20px;
 
 /*概要*/
 .company{
-  padding:100px 100px;
   margin:100px 100px;
 }
 .company__content-ttl{
-  display:block;
-  width:100%;
-  margin:50px 100px 0 0;
+  margin:50px auto 0 0;
 }
 table {
   width: 60%;
@@ -324,41 +319,51 @@ table th {
 /*画像２つリンク*/
 .link{
 display:flex;
+width: 100%;
+
 padding:100px  100px;
-top:50%;
-left:35%;
+
 }
 .recruit {
   position:relative;
+  width: 50%;
+
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-  top:50%;
-  left:35%;
 }
+
+.recruit img{
+  width: 100%;
+}
+
 .absolute1{
   position:absolute;
   color:#fff;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-  top:40%;
-  left:35%;
   font-size:40px;
 }
 
 .interview{
   position:relative;
+  width: 50%;
+
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-  top:50%;
-  left:35%;
 }
+
+
+.interview img{
+  width: 100%;
+}
+
+
+
 .absolute2{
   position:absolute;
   display:flex;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-  top:40%;
-  left:35%;
   color:#fff;
   font-size:40px;
 }
@@ -389,7 +394,7 @@ left:35%;
   border-radius: 50px;
   background:linear-gradient(90deg,#ff1493,#800085);
   text-align: center;
-  margin: 100px auto 0;
+  margin: 100px auto 100px;
   display: block;
   font-size: 18px;
   font-weight: bold;
@@ -414,14 +419,10 @@ left:35%;
 
 .footer {
   width: 100%;
-  height: 200px;
+  height: 100px;
   text-align: center;
-  margin:50px 50px;
-  padding: 50px 0;
   background-color: #dcdcdc;
-}
-.footer-text {
-  color: #000;
+  color:#000;
 }
 
 /*フッター*/
