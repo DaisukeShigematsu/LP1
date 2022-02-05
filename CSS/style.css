@@ -75,17 +75,22 @@ li a{
 
 /*news*/
 .news{
-margin:0, auto;
-padding:0px 50px;
 text-align: center;
+margin:0 auto;
+width:70%;
 }
 
 
 .news__content-ttl{
-font-size:20px;
-margin:50px,0;
-width:70%;
+  margin-top: 10%;
+  margin-left:32%;
+  font-size:20px;
 }
+
+.news__content{
+margin:0 auto;
+}
+
 dl{
 padding:30px 30px;
 font-size: 20px;
@@ -117,7 +122,7 @@ margin:0ox 30px;
 /*Aboutの説明文*/
 .about{
   background-color: #dcdcdc;
-  padding: 60px 0;
+  padding: 60px 60px;
   display: flex;
   justify-content: space-around;
   margin:50px, 50px;
@@ -132,16 +137,15 @@ margin:0ox 30px;
   width: 40%;
 }
 .about__content-ttl{
+position: relative;
 text-align: center;
 background-color: #dcdcdc;
-margin:0,auto;
-padding:100px,100px;
 }
 
 
 .tech{
-margin:30px  0 0 0;
-padding:0 0 0 0;
+margin:20px  0 0 0;
+padding:50px 0 0 0;
 }
 
 .title-font{
@@ -151,6 +155,28 @@ padding:0 0 0 0;
   margin: 0,auto;
   padding:50px,50px;
 }
+
+.title-font0{
+  font-family: "Indie Flower", cursive;
+  color: #c71585;
+  font-size:30px;
+  margin: 0,auto;
+  padding:50px,50px;
+}
+.title-font1{
+  font-family: "Indie Flower", cursive;
+  color: #c71585;
+  font-size:30px;
+  margin: 0,auto;
+  padding:50px,50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+
+}
+
 /*Aboutの説明文*/
 
 
@@ -202,20 +228,23 @@ padding:0 0 0 0;
 
 
 
+
+
 /*ブログカード*/
-.blog__content-ttl_{
-  margin-left:100px;
-}
 .blog__content{
-display:block;
-background-color: #dcdcdc;
+  background-color: #dcdcdc;
+}
+.blog__content-ttl{
+  margin-left:5%;
+  margin-top:10%;
+  padding:20px 20px;
 }
 
 .flex__item {
   display:flex;
   justify-content:space-between;
   background-color: #dcdcdc;
-  padding:0px 100px 0px 100px;
+  padding:0 100px 0 100px;
   margin: 0px  0px;
 }
 .practice__card {
@@ -277,6 +306,7 @@ padding: 100px 0px;
 }
 /*一覧ボタン*/
 .list__btn {
+  display:block;
   width: 200px;
   padding: 20px 20px;
   color: #800055;
@@ -285,7 +315,6 @@ padding: 100px 0px;
   background-color: white;
   text-align: center;
   margin:100px auto 0;
-  display:block;
 }
 
 
@@ -295,7 +324,7 @@ padding: 100px 0px;
   margin:100px 100px;
 }
 .company__content-ttl{
-  margin:50px auto 0 0;
+margin-left:20%;
 }
 table {
   width: 60%;
@@ -377,32 +406,31 @@ table th {
 }
 
 .cv_btn {
+  display: block;
   position:relative;
   width: 200px;
   padding: 25px;
   color: #fff;
   border-radius: 50px;
   background:linear-gradient(90deg,#ff1493,#800085);
+  box-shadow:(0,30px,0,rgba(109,11,255,0.2));
   text-align: center;
   margin: 100px auto 100px;
-  display: block;
   font-size: 18px;
   font-weight: bold;
   }
 
 .cv_btn::before {
-  content: "";
+  display: inline-block;
   position: absolute;
+  content: "";
   top: 50%;
   left: 25px;
   background: url(../img/mailicon.svg) no-repeat;
   background-size: cover;
-  vertical-align: middle;
-  box-shadow:(4px,4px,4px,purple);
   width: 30px;
   height: 30px;
   transform: translateY(-50%);
-  display:inline-block;
 }
 
 
@@ -410,9 +438,18 @@ table th {
 .footer {
   width: 100%;
   height: 100px;
+  position:relative;
   text-align: center;
   background-color: #dcdcdc;
   color:#000;
+}
+
+.footer1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
 /*フッター*/
