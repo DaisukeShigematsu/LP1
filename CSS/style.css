@@ -318,16 +318,14 @@ table th {
 
 /*画像２つリンク*/
 .link{
-display:flex;
-width: 100%;
-
-padding:100px  100px;
+  position: relative;
 
 }
-.recruit {
-  position:relative;
-  width: 50%;
 
+.recruit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
 }
@@ -337,35 +335,31 @@ padding:100px  100px;
 }
 
 .absolute1{
-  position:absolute;
   color:#fff;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
   font-size:40px;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  }
+
 
 .interview{
-  position:relative;
-  width: 50%;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
 }
-
 
 .interview img{
   width: 100%;
 }
-
-
-
 .absolute2{
-  position:absolute;
-  display:flex;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
   color:#fff;
   font-size:40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 /*CVボタン*/
 
@@ -426,6 +420,5 @@ padding:100px  100px;
 }
 
 /*フッター*/
-
 
 
