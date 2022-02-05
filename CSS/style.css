@@ -135,8 +135,10 @@ margin:0ox 30px;
 text-align: center;
 background-color: #dcdcdc;
 margin:0,auto;
-padding:0  0  0  0;
+padding:50px,100px;
 }
+
+
 .tech{
 margin:30px  0 0 0;
 padding:0 0 0 0;
@@ -145,9 +147,9 @@ padding:0 0 0 0;
 .title-font{
   font-family: "Indie Flower", cursive;
   color: #c71585;
-  font-size:20px;
-  margin: 0 0;
-  padding:0 0;
+  font-size:30px;
+  margin: 0,auto;
+  padding:50px,50px;
 }
 /*Aboutの説明文*/
 
@@ -319,12 +321,11 @@ table th {
 /*画像２つリンク*/
 .link{
   display:flex;
-  position: relative;
-
+  width:100%;
 }
 
 .recruit {
-  position: absolute;
+  position:relative;
   width:50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
@@ -335,14 +336,15 @@ table th {
 }
 
 .absolute1{
+  position: absolute;
   color:#fff;
   font-size:40px;
-  position: absolute;
+
   }
 
 
 .interview{
-  position: absolute;
+  position: relative;
   width:50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
@@ -352,10 +354,9 @@ table th {
   width: 100%;
 }
 .absolute2{
+  position: absolute;
   color:#fff;
   font-size:40px;
-  position: absolute;
-
 }
 /*CVボタン*/
 
