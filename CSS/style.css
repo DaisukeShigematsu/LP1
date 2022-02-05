@@ -135,7 +135,7 @@ margin:0ox 30px;
 text-align: center;
 background-color: #dcdcdc;
 margin:0,auto;
-padding:50px,100px;
+padding:100px,100px;
 }
 
 
@@ -327,8 +327,6 @@ table th {
 .recruit {
   position:relative;
   width:50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
 .recruit img{
@@ -339,15 +337,14 @@ table th {
   position: absolute;
   color:#fff;
   font-size:40px;
-
+  top:40%;
+  left:40%;
   }
 
 
 .interview{
   position: relative;
   width:50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
 .interview img{
@@ -357,6 +354,8 @@ table th {
   position: absolute;
   color:#fff;
   font-size:40px;
+  top:40%;
+  left:40%;
 }
 /*CVボタン*/
 
