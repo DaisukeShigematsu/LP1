@@ -318,14 +318,14 @@ table th {
 
 /*画像２つリンク*/
 .link{
+  display:flex;
   position: relative;
 
 }
 
 .recruit {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  width:50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
 }
@@ -338,15 +338,12 @@ table th {
   color:#fff;
   font-size:40px;
   position: absolute;
-  top: 50%;
-  left: 50%;
   }
 
 
 .interview{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  width:50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
 }
@@ -358,8 +355,7 @@ table th {
   color:#fff;
   font-size:40px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+
 }
 /*CVボタン*/
 
